@@ -52,6 +52,5 @@ module('Integration | Component | rental/image', function (hooks) {
     await click('.image');
     assert.dom('.image').doesNotHaveClass('large');
     assert.dom('.image small').hasText('View Larger');
-
   });
 });

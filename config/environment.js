@@ -44,5 +44,6 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV.MAPS_API_TOKEN = 'ebf8bcb977a4428bbebd91ff411f8d36';
   return ENV;
 };

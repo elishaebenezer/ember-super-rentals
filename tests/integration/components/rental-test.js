@@ -15,5 +15,6 @@ module('Integration | Component | rental', function (hooks) {
     assert.dom('article').hasClass('rental');
     assert.dom('article h3').hasText('Grand Old Mansion');
     assert.dom('article .image').exists();
+    assert.dom('article .map').exists();
   });
 });
